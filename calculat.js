@@ -18,5 +18,14 @@ const all=[{
 }]
 
 all.map((e)=>{
-  console.log(e.name,e.price)  
+  return(
+    <div>
+    
+
+<ul style="display:flex">
+<li>{e.name} {console.log(e.name)}</li>
+<li>{e.price} {console.log(e.price)}</li>
+</ul>
+    </div>
+  ) 
 })
