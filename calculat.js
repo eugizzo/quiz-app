@@ -24,7 +24,7 @@ all.map((e)=>{
 
 <ul style="display:flex">
 <li>{e.name} {console.log(e.name)}</li>
-<li>{e.price} {console.log(e.price)}</li>
+
 </ul>
     </div>
   ) 
